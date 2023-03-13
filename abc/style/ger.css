@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+    height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #990000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    padding: 30px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #990000;
+}
+h2 {
+    display: inline-block;
+    position: relative;
+}
+
+h2:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 2px;
+    background: rgb(183, 170, 170);
+}
+section {
+    border: 1px solid black;
+    max-width: 1100px;
+    height: auto;
+    margin: 15px auto 0;
+    height: 75.2% ;
+}
+.div-img {
+    background-color: #dbc1a2;
+    width: 40%;
+    float: right;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 70%;
+    height: auto;
+}
+/* Styles for devices with width up to 767px */
+@media (max-width: 767px) {
+    nav li {
+        display: block;
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    .vinos {
+        width: 100%;
+        margin: 0;
+    }
+
+    .div-img {
+        width: 100%;
+        float: right;
+        margin: 0;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h5 {
+        width: 100%;
+        text-align: center;
+    }
+}
+/* Styles for devices with width between 768px and 981px */
+@media (min-width: 768px) and (max-width: 981px) {
+    nav li {
+        font-size: 18px;
+        margin-right: 20px;
+    }
+
+    .vinos {
+        max-width: 750px;
+    }
+
+    .div-img {
+        width: 40%;
+    }
+
+    img {
+        max-width: 60%;
+    }
+}
+
+/* Styles for devices with width between 982px and 1229px */
+@media (min-width: 982px) and (max-width: 1229px) {
+    nav li {
+        font-size: 20px;
+        margin-right: 30px;
+    }
+
+    .vinos {
+        max-width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .div-img {
+        float: none;
+        margin: 0 auto;
+        max-width: 70%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .header {
+        padding: 30px 20px;
+    }
+
+    .header h1 {
+        font-size: 48px;
+    }
+
+    .header p {
+        font-size: 20px;
+    }
+
+    .content {
+        margin: 50px 0;
+    }
+
+    .section {
+        margin-bottom: 50px;
+    }
+
+    .section h2 {
+        font-size: 36px;
+    }
+
+    .section p {
+        font-size: 18px;
+    }
+
+    .cta {
+        padding: 30px 20px;
+    }
+
+    .cta h2 {
+        font-size: 36px;
+    }
+
+    .cta p {
+        font-size: 20px;
+    }
+
+    .cta a {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+}

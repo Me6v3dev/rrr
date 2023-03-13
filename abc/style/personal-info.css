@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1px;
+}
+
+nav {
+  background-color: #990000;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 250px;
+  font-size: 24px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+section{
+  width: 660px;
+  height: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+
+footer {
+  margin-top: 205px;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  background-color: #990000;
+}
+.row {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.label {
+  font-weight: bold;
+  flex-basis: 120px;
+  flex-shrink: 0;
+}
+
+.value {
+  margin-left: 20px;
+}
+
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  display: inline-block;
+  padding: 5px 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #4CAF50;
+  border: 2px solid #4CAF50;
+  transition: all 0.2s ease-in-out;
+  margin-top: 15px;
+  margin-left: 330px;
+}
+
+.button:hover {
+  background-color: #990000;
+  border-color: #990000;
+}
+

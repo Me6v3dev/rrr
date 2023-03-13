@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+nav {
+    background-color: #990000;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 250px;
+    font-size: 24px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    background-color: #990000;
+}
+
+section {
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    display: inline-block;
+    position: relative;
+    transform: translate(-50);
+}
+
+h2:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 990px;
+    height: 2px;
+    background: rgb(183, 170, 170);
+
+}
+
+h4 {
+    text-align: center;
+    background-color: #c4dcfe;
+    margin: 5px;
+}
+
+.vinos {
+    background-color: rgb(249, 245, 245);
+    width: 820px;
+    height: auto;
+    position: relative;
+    left: 15%;
+    margin-right: -50%;
+}
+
+.vinos-text {
+    margin-left: 25px;
+}
+
+.div-img {
+    background-color: white;
+    width: 350px;
+    height: auto;
+    position: absolute;
+    right: 40px;
+}
+
+.img-ram {
+    border: 1px solid black;
+    margin-top: 10px;
+    width: 330px;
+    height: 430px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+img {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 10px;
+}
